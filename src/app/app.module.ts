@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { DateComponent } from './components/date/date.component';
 import { UppercaseComponent } from './components/uppercase/uppercase.component';
+import { FilterComponent } from './components/filter/filter.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DateComponent,
-    UppercaseComponent
+    UppercaseComponent,
+    FilterComponent
   ],
   imports: [
     BrowserModule

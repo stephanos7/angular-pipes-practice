@@ -2,10 +2,10 @@ h3{
   color: white;
 }
 
-.uppercase-box{
+.date-box{
   font-size: 2rem;
   padding: 20px;
-  background-color: #619B8A;
+  background-color: #FCCA46;
   max-height: 400px;
   border: 3px solid white;
 }
