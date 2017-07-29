@@ -1,4 +1,22 @@
 <div class="col-lg-4 date-box">
   <h3>date | pipe</h3>
   <hr>
+
+  <ul>
+    <li>
+        <h4>The date without a pipe:</h4>
+        <h4 class="result">{{dateToDisplay}}</h4>
+    </li>
+    <li>
+      <h4>with a date-formatting pipe:</h4>
+      <h4 class="result">{{dateToDisplay  | date:'dd/MM/yyyy' }}</h4>
+    </li> 
+    <li>
+      <h4>with a custom "increment" pipe:</h4>
+      <h4 class="result">{{dateToDisplay  | date:'dd/MM/yyyy' }}</h4>
+
+      <button class="btn btn-default" type="button" (click)="increment()">+</button>
+    
+    </li> 
+  </ul>
 </div>
