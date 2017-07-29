@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./decimal.component.css']
 })
 export class DecimalComponent implements OnInit {
-
+number: Number = 431.896554;
   constructor() { }
 
   ngOnInit() {
