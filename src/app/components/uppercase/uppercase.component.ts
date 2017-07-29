@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./uppercase.component.css']
 })
 export class UppercaseComponent implements OnInit {
+name : string = "Andrew";
 
   constructor() { }
 
