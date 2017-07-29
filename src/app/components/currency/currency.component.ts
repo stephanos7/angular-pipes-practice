@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./currency.component.css']
 })
 export class CurrencyComponent implements OnInit {
-
+product: Object = {
+  price: 342,
+  name : "Headphones"
+}
   constructor() { }
 
   ngOnInit() {

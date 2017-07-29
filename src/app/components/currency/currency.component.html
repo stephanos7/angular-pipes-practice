@@ -4,11 +4,11 @@
   <ul>
     <li>
       <h4>Price before currency pipe:</h4>
-      <h4 class="result">hello</h4>
+      <h4 class="result">{{product.name}} - {{product.price}}</h4>
     </li>
     <li>
       <h4>Price with currency pipe:</h4>
-      <h4 class="result">hello</h4>
+      <h4 class="result">{{product.name}} - {{product.price | currency:'USD':true}} </h4>
     </li>
   </ul>
 </div>
