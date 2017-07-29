@@ -1,0 +1,10 @@
+h3{
+  color: white;
+}
+
+.date-box{
+  font-size: 2rem;
+  padding: 16px;
+  background-color: #FE8A40;
+  max-height: 400px;
+}
