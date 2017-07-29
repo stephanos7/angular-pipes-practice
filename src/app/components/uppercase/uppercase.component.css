@@ -9,6 +9,12 @@ h4{
   font-size: 2rem;
   padding: 20px;
   background-color: #619B8A;
-  height: 260px;
   border: 3px solid white;
+}
+
+ul li{
+  padding-bottom: 20px;
+}
+.result{
+  color: white;
 }

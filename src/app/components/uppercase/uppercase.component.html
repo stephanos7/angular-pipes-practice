@@ -1,11 +1,23 @@
 <div class="col-lg-4 uppercase-box">
-  <h3>uppercase | pipe</h3>
+  <h3>upper/lowercase | pipe</h3>
   <hr>
-
-  <h4>Name before pipe: {{name}}</h4>
-  <br>
-  <h4>Name with pipe: {{name | uppercase}}</h4>
-
-
+  <ul>
+    <li>
+      <h4>Name before uppercase pipe:</h4>
+      <h4 class="result">{{name}}</h4>
+    </li>
+    <li>
+      <h4>Name with uppercase pipe:</h4>
+      <h4 class="result">{{name | uppercase}}</h4>
+    </li>
+    <li>
+      <h4>Name before lowercase pipe:</h4>
+      <h4 class="result">{{nameUpper}}</h4>
+    </li>
+    <li>
+      <h4>Name with lowerce pipe:</h4>
+      <h4 class="result">{{nameUpper | lowercase}}</h4>
+    </li>
+  </ul>
 </div>
 

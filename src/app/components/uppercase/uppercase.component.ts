@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UppercaseComponent implements OnInit {
 name : string = "Andrew";
+nameUpper : string = "JONAS";
 
   constructor() { }
 
